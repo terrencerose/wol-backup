@@ -4,14 +4,14 @@
 <!ENTITY name      "wol-backup">
 <!ENTITY author    "terrencerose">
 <!ENTITY version   "2019.07.29">
-<!ENTITY md5       "397d2aa6960ff932263202f3066e3833">
+<!ENTITY md5       "6c033be876c4fa576dc6edc7c24d2f84">
 <!ENTITY launch    "Apps">
 <!ENTITY plugdir   "/usr/local/emhttp/plugins/&name;">
 <!ENTITY github    "&author;/&name;">
 <!ENTITY pluginURL "https://raw.githubusercontent.com/&github;/master/plugins/&name;.plg">
 ]>
 
-<PLUGIN name="&name;" author="&author;" version="&version;" launch="&launch;" pluginURL="&pluginURL;" min="6.4.0" support="https://lime-technology.com/forums/topic/38582-plug-in-community-applications/" icon="users">
+<PLUGIN name="&name;" author="&author;" version="&version;" launch="&launch;" pluginURL="&pluginURL;" min="6.4.0" support="https://github.com/terrencerose/wol-backup/" icon="users">
 		 
 <!-- The 'pre-install' script. -->
 <FILE Run="/usr/bin/php">
